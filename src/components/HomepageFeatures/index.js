@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'What Is This?',
+    Svg: require('@site/static/img/undraw_blooming_re_2kc4.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        This is a documentary website, named Seed of Hope, that focuses on the advocacy of farmers and their role in shaping our world. Our mission is to educate the public on the importance of farming, shed light on the challenges and triumphs of farmers, and to advocate for policies that support them.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Why Does This Exist?',
+    Svg: require('@site/static/img/undraw_farm_girl_dnpe.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        This website exists to bring awareness to the hard work and contributions of farmers to our society. We believe that farmers often go unrecognized for the essential work they do, and we want to change that. We want to educate the public on the importance of farming and the role it plays in our daily lives.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'How Can This Help The farmers?',
+    Svg: require('@site/static/img/undraw_different_love_a-3-rg.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Support local and small family-owned farms by purchasing their products, advocate for policies that support farmers and sustainable agriculture and educate yourself and others on the challenges facing farmers today.
       </>
     ),
   },

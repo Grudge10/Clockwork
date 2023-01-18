@@ -7,8 +7,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Seed of Hope',
-  tagline: 'Efficiency in motion with Clockwork',
-  url: 'https://clockwork-pt.netlify.app/',
+  tagline: 'Growing a better future, one seed at a time',
+  url: 'https://seedofhope.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Grudge10/Clockwork/find/main',
+            'https://github.com/Grudge10/Seed-Of-Hope/find/main',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Grudge10/Clockwork/find/main',
+            'https://github.com/Grudge10/Seed-Of-Hope/find/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -57,10 +57,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Seed Of Hope',
+        title: 'Seed of Hope',
         logo: {
-          alt: "Seed Of Hope's logo",
-          src: 'img/astronaut.png',
+          alt: "Seed of Hope's logo",
+          src: 'img/sprout.png',
         },
         items: [
           {
@@ -71,7 +71,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/Grudge10/Clockwork',
+            href: 'https://github.com/Grudge10/Seed-Of-Hope',
             label: 'GitHub',
             position: 'right',
           },
@@ -107,12 +107,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/Grudge10/Clockwork',
+                href: 'https://github.com/Grudge10/Seed-Of-Hope',
               },
             ],
           },
         ],
-        copyright: `Copyright © 2023 Clockwork, Made with ❤️ by Clockwork Team`,
+        copyright: `Copyright © 2023 Seed of Hope, Made with ❤️ by the Seed of Hope Team`,
       },
       prism: {
         theme: lightCodeTheme,
