@@ -1,4 +1,8 @@
 {
     "label": "Farmers",
-    "position": "2"
+    "position": "2",
+    "link": {
+        "type": "doc",
+        "id": "who-are-farmers"
+    }
 }
