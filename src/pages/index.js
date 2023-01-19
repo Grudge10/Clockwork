@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Discover the stories and perspectives of farmers on Seed of Hope. Learn about the challenges they face, their contributions to society and the importance of their work. Find documentaries, articles and multimedia content that provide a comprehensive view of the world of farming. Join us in supporting farmers and their communities.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
