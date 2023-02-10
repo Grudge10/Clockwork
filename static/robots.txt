@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow:
 Sitemap: https://www.algolia.com/sitemap.xml
-Algolia-Crawler-Verif: A3D26D202767F433
+# Algolia-Crawler-Verif: A3D26D202767F433
