@@ -61,7 +61,7 @@ const config = {
         // Public API key: it is safe to commit it
         apiKey: "d863a8bb826e3b9c11b761f176378976",
 
-        indexName: "YOUR_INDEX_NAME",
+        indexName: "seed-of-hope",
 
         // Optional: see doc section below
         contextualSearch: true,
