@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow:
+Algolia-Crawler-Verif: A3D26D202767F433
