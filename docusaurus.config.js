@@ -59,7 +59,9 @@ const config = {
         appId: "FN0UVM57MW",
 
         // Public API key: it is safe to commit it
-        apiKey: "35a6107282bbb88203f03f97f52a9708",
+        apiKey: "d863a8bb826e3b9c11b761f176378976",
+
+        indexName: "YOUR_INDEX_NAME",
 
         // Optional: see doc section below
         contextualSearch: true,
