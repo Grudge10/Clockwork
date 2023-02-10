@@ -59,7 +59,7 @@ const config = {
         appId: "FN0UVM57MW",
 
         // Public API key: it is safe to commit it
-        apiKey: "d863a8bb826e3b9c11b761f176378976",
+        apiKey: "35a6107282bbb88203f03f97f52a9708",
 
         indexName: "seed-of-hope",
 
