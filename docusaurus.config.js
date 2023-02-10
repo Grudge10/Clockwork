@@ -56,18 +56,16 @@ const config = {
     ({
       algolia: {
         // The application ID provided by Algolia
-        appId: "XGZNFKX9A5",
+        appId: "FN0UVM57MW",
 
         // Public API key: it is safe to commit it
-        apiKey: "d863a8bb826e3b9c11b761f176378976",
-
-        indexName: "YOUR_INDEX_NAME",
+        apiKey: "35a6107282bbb88203f03f97f52a9708",
 
         // Optional: see doc section below
         contextualSearch: true,
 
         // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-        // externalUrlRegex: "external\\.com|domain\\.com",
+        externalUrlRegex: "external\\.com|domain\\.com",
 
         // Optional: Algolia search parameters
         searchParameters: {},
@@ -76,6 +74,9 @@ const config = {
         searchPagePath: "search",
 
         //... other Algolia params
+        siteId: "592ff0d4-fe1e-4932-97f9-ee402dbd842a",
+        branch: "main",
+        selector: "div#search",
       },
       navbar: {
         title: "Seed of Hope",
