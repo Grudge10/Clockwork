@@ -95,13 +95,13 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/Grudge10/Seed-Of-Hope",
-            label: "GitHub",
+            to: "/seed-of-hope-team",
+            label: "About Us",
             position: "right",
           },
           {
-            href: "https://seed-of-hope.netlify.app/seed-of-hope-team/",
-            label: "About Us",
+            href: "https://github.com/Grudge10/Seed-Of-Hope",
+            label: "GitHub",
             position: "right",
           },
         ],
