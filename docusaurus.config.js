@@ -99,6 +99,11 @@ const config = {
             label: "GitHub",
             position: "right",
           },
+          {
+            href: "https://seed-of-hope.netlify.app/seed-of-hope-team/",
+            label: "About Us",
+            position: "right",
+          },
         ],
       },
       footer: {
