@@ -113,19 +113,43 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
+                label: "Welcome",
                 to: "/docs/intro",
+              },
+              {
+                label: "Farmers",
+                to: "/docs/farmers/who-are-farmers",
+              },
+              {
+                label: "Supporting Farmers",
+                to: "/docs/category/supporting-farmers"
               },
             ],
           },
           {
-            title: "Our Social Medias",
+            title: "SOH Team",
             items: [
               {
-                label: "dummy link",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "SOH Team Leader",
+                to: "https://github.com/Grudge10",
               },
-            ],
+              {
+                label: "Communications Specialist",
+                to: "https://github.com/Eka-07",
+              },
+              {
+                label: "Outreach and Partnerships Manager",
+                to: "https://github.com/HanMe0.png",
+              },
+              {
+                label: "Project Manager",
+                to: "https://github.com/Hxan06",
+              },
+              {
+                label: "Sustainability Coordinator",
+                to: "https://github.com/Ahyra",
+              },
+            ]
           },
           {
             title: "More",
