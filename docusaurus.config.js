@@ -61,7 +61,7 @@ const config = {
       // Public API key: it is safe to commit it
       apiKey: '35a6107282bbb88203f03f97f52a9708',
 
-      indexName: 'Crawler Netlify - seed-of-hope',
+      indexName: 'netlify_592ff0d4-fe1e-4932-97f9-ee402dbd842a_main_all',
 
       // Optional: see doc section below
       contextualSearch: false,
