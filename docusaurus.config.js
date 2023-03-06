@@ -55,30 +55,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       algolia: {
-        // The application ID provided by Algolia
-        appId: "FN0UVM57MW",
-
-        // Public API key: it is safe to commit it
-        apiKey: "35a6107282bbb88203f03f97f52a9708",
-
-        indexName: "seed-of-hope",
-
-        // Optional: see doc section below
-        contextualSearch: true,
-
-        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-        // externalUrlRegex: "external\\.com|domain\\.com",
-
-        // Optional: Algolia search parameters
-        // searchParameters: {},
-
-        // Optional: path for search page that enabled by default (`false` to disable it)
-        searchPagePath: "search",
-
-        //... other Algolia params
-        siteId: "592ff0d4-fe1e-4932-97f9-ee402dbd842a",
-        branch: "main",
-        selector: "div#search",
+        appId: 'FN0UVM57MW',
+        apiKey: '<YOUR_ALGOLIA_SEARCH_API_KEY>',
+        siteId: '592ff0d4-fe1e-4932-97f9-ee402dbd842a',
+        branch: 'main',
+        selector: 'div#search',
       },
       navbar: {
         title: "Seed of Hope",
