@@ -56,35 +56,35 @@ const config = {
     ({
       algolia: {
         // The application ID provided by Algolia
-      appId: 'FN0UVM57MW',
+        appId: "FN0UVM57MW",
 
-      // Public API key: it is safe to commit it
-      apiKey: '35a6107282bbb88203f03f97f52a9708',
+        // Public API key: it is safe to commit it
+        apiKey: "35a6107282bbb88203f03f97f52a9708",
 
-      indexName: 'netlify_592ff0d4-fe1e-4932-97f9-ee402dbd842a_main_all',
+        indexName: "netlify_592ff0d4-fe1e-4932-97f9-ee402dbd842a_main_all",
 
-      // Optional: see doc section below
-      contextualSearch: false,
+        // Optional: see doc section below
+        contextualSearch: false,
 
-      // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-      // externalUrlRegex: 'external\\.com|domain\\.com',
+        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+        // externalUrlRegex: 'external\\.com|domain\\.com',
 
-      // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
-//       replaceSearchResultPathname: {
-//         from: '/docs/', // or as RegExp: /\/docs\//
-//         to: '/',
-//       },
+        // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
+        //       replaceSearchResultPathname: {
+        //         from: '/docs/', // or as RegExp: /\/docs\//
+        //         to: '/',
+        //       },
 
-      // Optional: Algolia search parameters
-//       searchParameters: {},
+        // Optional: Algolia search parameters
+        //       searchParameters: {},
 
-      // Optional: path for search page that enabled by default (`false` to disable it)
-      searchPagePath: 'search',
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: "search",
 
-      //... other Algolia params
-        iteId: '592ff0d4-fe1e-4932-97f9-ee402dbd842a',
-    branch: 'main',
-    selector: 'div#search',
+        //... other Algolia params
+        itemId: "592ff0d4-fe1e-4932-97f9-ee402dbd842a",
+        branch: "main",
+        selector: "div#search",
       },
       navbar: {
         title: "Seed of Hope",
@@ -128,7 +128,7 @@ const config = {
               },
               {
                 label: "Supporting Farmers",
-                to: "/docs/category/supporting-farmers"
+                to: "/docs/category/supporting-farmers",
               },
             ],
           },
@@ -155,7 +155,7 @@ const config = {
                 label: "Sustainability Coordinator",
                 to: "https://github.com/Ahyra",
               },
-            ]
+            ],
           },
           {
             title: "More",
